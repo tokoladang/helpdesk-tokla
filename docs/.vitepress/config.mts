@@ -59,8 +59,18 @@ export default defineConfig({
     nav: [
       { text: 'Panduan', link: '/guide', activeMatch: '/guide/' },
       { text: 'Legal', link: '/legal/about-siplah', activeMatch: '/legal/' },
+      { text: 'FAQ', link: '/faq', activeMatch: '/faq' },
     ],
     sidebar: {
+      '/': [
+        {
+          text: 'FAQ',
+          collapsed: false,
+          items: [
+            { text: 'Pertanyaan Umum', link: '/faq' },
+          ],
+        },
+      ],
       '/guide/': [
         {
           text: 'Panduan Umum',
@@ -92,7 +102,7 @@ export default defineConfig({
           items: [
             { text: 'Kode Bayar Bank Bali', link: '/guide/payment/20260715-pembayaran-kode-bayar-bank-bali' },
             { text: 'VA BPD DIY', link: '/guide/payment/20260716-pembayaran-va-bpd-diy' },
-            { text: 'VA Bank Mandiri', link: '/guide/payment/20260716-pembayaran-va-bank-mandiri' },
+            { text: 'Kode Bayar Bank Mandiri', link: '/guide/payment/20260716-pembayaran-kode-bayar-bank-mandiri' },
             { text: 'VA Bank Kaltimtara', link: '/guide/payment/20251107-pembayaran-va-bankaltimtara' },
           ],
         },
@@ -103,7 +113,7 @@ export default defineConfig({
             { text: 'PMK 58 Tahun 2022', link: '/guide/regulation/20220701-pmk58-tahun-2022' },
             { text: 'SE Sesjen No 20 Tahun 2022', link: '/guide/regulation/20220701-se-sesjen-no-20-tahun-2022' },
           ],
-        }
+        },
       ],
       '/legal/': [
         {

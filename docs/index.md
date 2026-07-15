@@ -15,10 +15,29 @@ hero:
       link: /legal/about-siplah
 
 features:
-  - title: Feature A
+  - title: FAQ
+    details: Daftar Pertanyaan yang sering ditanyakan, klik di sini.
+    link: /faq
+  - title: SIPLah Toko Ladang
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: https://siplah.tokoladang.co.id
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<!-- ## Kapan dana diteruskan ke rekening toko?
+
+<AnswerAccordion open>
+
+**1x24 jam (hari kerja) dari jam & tanggal terverifikasinya pembayaran**
+
+| Waktu Verifikasi  | Proses Transfer                   |
+| ----------------- | --------------------------------- |
+| Sebelum 12:00 WIB | Diproses pada **hari yang sama**  |
+| Setelah 12:00 WIB | Diproses pada **hari berikutnya** |
+
+> Jam **Terverifikasi Pembayaran** BUKAN jam sekolah bayar.
+
+</AnswerAccordion>
+
+[Lihat Semua FAQ](/faq) -->
