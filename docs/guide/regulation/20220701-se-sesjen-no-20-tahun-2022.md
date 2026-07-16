@@ -32,8 +32,8 @@ Pemungutan, penyetoran, dan pelaporan pajak mulai 1 Juli 2022:
 
 - **Menjadi tanggung jawab Mitra SIPLah**, bukan lagi satuan pendidikan.
 - Mitra SIPLah menerapkan:
-  - **PPN 11%** — dikenakan pada satuan pendidikan (kecuali barang yang dikecualikan)
-  - **PPh Pasal 22 sebesar 0,5%** — dikenakan pada penyedia barang/jasa (kecuali yang dikecualikan)
+    - **PPN 11%** — dikenakan pada satuan pendidikan (kecuali barang yang dikecualikan)
+    - **PPh Pasal 22 sebesar 0,5%** — dikenakan pada penyedia barang/jasa (kecuali yang dikecualikan)
 
 ### 4. Imbauan untuk Dinas Pendidikan
 

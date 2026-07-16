@@ -34,9 +34,9 @@ Aturan pengguna ini merupakan bentuk kesepakatan yang merupakan perjanjian mengi
 1. Pengguna menyatakan bahwa dirinya merupakan subjek hukum yang cakap dan berwenang untuk mengikatkan diri dalam Perjanjian ini.
 
 2. Dalam mengakses dan menggunakan SIPLah Toko Ladang, termasuk seluruh fitur dan layanan yang tersedia, Pengguna dilarang untuk melakukan hal-hal berikut:
-   - Melanggar ketentuan hukum yang berlaku, termasuk namun tidak terbatas pada peraturan perlindungan konsumen, persaingan usaha, anti-diskriminasi, dan larangan iklan palsu; serta melanggar hak-hak pihak lain, baik hak kekayaan intelektual, hak asasi, maupun hak lainnya, serta ketentuan yang tercantum dalam Perjanjian ini.
-   - Menyampaikan informasi atau konten yang tidak benar, tidak akurat, menyesatkan, bersifat fitnah, asusila, mengandung unsur pornografi, diskriminatif, atau rasis; menyebarkan spam, pesan berantai, atau pesan elektronik dalam jumlah besar; serta menyebarkan virus atau teknologi lain yang dapat merusak dan/atau merugikan SIPLah Toko Ladang, afiliasinya, maupun Pengguna lainnya.
-   - Menambahkan, mengubah, atau memindahkan fitur pada SIPLah Toko Ladang tanpa sepengetahuan dan persetujuan dari SIPLah Toko Ladang; menyimpan, meniru, memodifikasi, atau menyebarkan konten dan fitur SIPLah Toko Ladang, termasuk layanan, konten, hak cipta, dan kekayaan intelektual yang terdapat di dalamnya; serta mengakses atau mengumpulkan informasi dari Pengguna lain, termasuk alamat email, tanpa izin dari pihak yang bersangkutan.
+    - Melanggar ketentuan hukum yang berlaku, termasuk namun tidak terbatas pada peraturan perlindungan konsumen, persaingan usaha, anti-diskriminasi, dan larangan iklan palsu; serta melanggar hak-hak pihak lain, baik hak kekayaan intelektual, hak asasi, maupun hak lainnya, serta ketentuan yang tercantum dalam Perjanjian ini.
+    - Menyampaikan informasi atau konten yang tidak benar, tidak akurat, menyesatkan, bersifat fitnah, asusila, mengandung unsur pornografi, diskriminatif, atau rasis; menyebarkan spam, pesan berantai, atau pesan elektronik dalam jumlah besar; serta menyebarkan virus atau teknologi lain yang dapat merusak dan/atau merugikan SIPLah Toko Ladang, afiliasinya, maupun Pengguna lainnya.
+    - Menambahkan, mengubah, atau memindahkan fitur pada SIPLah Toko Ladang tanpa sepengetahuan dan persetujuan dari SIPLah Toko Ladang; menyimpan, meniru, memodifikasi, atau menyebarkan konten dan fitur SIPLah Toko Ladang, termasuk layanan, konten, hak cipta, dan kekayaan intelektual yang terdapat di dalamnya; serta mengakses atau mengumpulkan informasi dari Pengguna lain, termasuk alamat email, tanpa izin dari pihak yang bersangkutan.
 
 3. Pengguna memahami dan menyetujui bahwa harga yang tercantum di SIPLah Toko Ladang dapat berubah sewaktu-waktu tanpa pemberitahuan terlebih dahulu.
 
@@ -141,51 +141,51 @@ Aturan pengguna ini merupakan bentuk kesepakatan yang merupakan perjanjian mengi
 ## KETENTUAN PENDAFTARAN DAN VERIFIKASI PENYEDIA
 
 1. Dokumen yang wajib disiapkan untuk pendaftaran penyedia di SIPLah Toko Ladang:
-   1. KTP
-   2. NPWP
-   3. NIB/SIUP/SK Koperasi
-   4. Surat Keterangan PKP
-   5. Buku Rekening
+    1. KTP
+    2. NPWP
+    3. NIB/SIUP/SK Koperasi
+    4. Surat Keterangan PKP
+    5. Buku Rekening
 
 2. Kategori penyedia yang dapat mendaftar di SIPLah Toko Ladang:
 
-   a. Badan Hukum
+    a. Badan Hukum
 
-   b. Individu
+    b. Individu
 
-   c. Koperasi
+    c. Koperasi
 
 3. Dokumen yang harus dipenuhi sesuai kategori penyedia:
 
-   a. Badan Hukum
-   - KTP
-   - NPWP
-   - NIB / SIUP
+    a. Badan Hukum
+    - KTP
+    - NPWP
+    - NIB / SIUP
 
-   b. Individu
-   - KTP
-   - NPWP
+    b. Individu
+    - KTP
+    - NPWP
 
-   c Koperasi
-   - KTP
-   - NPWP
-   - NIB / SK Koperasi
+    c Koperasi
+    - KTP
+    - NPWP
+    - NIB / SK Koperasi
 
 4. Ketentuan Verifikasi Toko
 
-   a. Badan Hukum
-   - Dokumen NIB Wajib ada.
-   - NPWP harus atas nama perusahaan.
-   - KTP harus milik direktur perusahaan.
-   - Nomor rekening sebaiknya atas nama perusahaan (rekomendasi), atau atas nama direktur perusahaan.
+    a. Badan Hukum
+    - Dokumen NIB Wajib ada.
+    - NPWP harus atas nama perusahaan.
+    - KTP harus milik direktur perusahaan.
+    - Nomor rekening sebaiknya atas nama perusahaan (rekomendasi), atau atas nama direktur perusahaan.
 
-   b. Individu
-   - Nama pada KTP, NPWP, dan Rekening harus sama.
+    b. Individu
+    - Nama pada KTP, NPWP, dan Rekening harus sama.
 
-   c. Koperasi
-   - KTP harus milik penanggung jawab koperasi.
-   - NPWP dapat atas nama koperasi atau penanggung jawab koperasi.
-   - Nomor rekening sebaiknya atas nama koperasi (rekomendasi), atau atas nama penanggung jawab koperasi.
+    c. Koperasi
+    - KTP harus milik penanggung jawab koperasi.
+    - NPWP dapat atas nama koperasi atau penanggung jawab koperasi.
+    - Nomor rekening sebaiknya atas nama koperasi (rekomendasi), atau atas nama penanggung jawab koperasi.
 
 5. Nama toko tidak bisa dirubah.
 6. Jika terjadi kesalahan input nama toko untuk penyedia dengan status Badan Hukum, penyedia dapat mengajukan perubahan nama toko. Nama toko akan disesuaikan dengan nama yang tercantum pada NPWP.

@@ -24,11 +24,11 @@ diterbitkan: 2026-07-16
 1. Datang ke Cabang Bank Mandiri
 2. Isi slip setoran atau pindah buku
 3. Langkah Pengisian Aplikasi Setoran / Transfer :
-   - Isi Tanggal, Nama dan Alamat Pembayar
-   - Isi Penerima dengan **87311**
-   - Isi No.Rekening dengan **KODE BAYAR**
-   - Isi Jumlah Setoran dan Terbilang
-   - Isi Tujuan Transaksi. Contoh: PEMBAYARAN LISTRIKONE
+    - Isi Tanggal, Nama dan Alamat Pembayar
+    - Isi Penerima dengan **87311**
+    - Isi No.Rekening dengan **KODE BAYAR**
+    - Isi Jumlah Setoran dan Terbilang
+    - Isi Tujuan Transaksi. Contoh: PEMBAYARAN LISTRIKONE
 4. Antarkan slip setoran ke teller
 5. Teller akan memproses & mencetak bukti pembayaran
 

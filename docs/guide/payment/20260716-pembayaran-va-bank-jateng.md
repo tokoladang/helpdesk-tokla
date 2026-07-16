@@ -24,10 +24,10 @@ ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/bAiFFee
 ![Transfer Rekening Lain](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN3jTbQzAb4m3azbmZr2NTf3dYBbwCWfsiVFnRTzLbp1QJsrwjj72LSJN5zGxmiLdQjUkpx2rV4cdJwvoDXb_CY-03CcCRw2F3ufMiZCFNvbKTWEPf2bfC1flBb27TmVW2YTjDJoh2RcPb9YCXTaTAdu2Evg6aI-Rb5ayaWGat_gFKO7DCl-3YX5fnuzg/s16000-rw/3.png)
 
 5. Lengkapi form transfer:
-   - **Dari Rekening**: Pilih rekening sumber
-   - **Ke Rekening**: Masukkan nomor Virtual Account (VA) Toko Ladang
-   - **Nominal**: Masukkan jumlah pembayaran
-   - **Keterangan**: Isi keterangan jika diperlukan
+    - **Dari Rekening**: Pilih rekening sumber
+    - **Ke Rekening**: Masukkan nomor Virtual Account (VA) Toko Ladang
+    - **Nominal**: Masukkan jumlah pembayaran
+    - **Keterangan**: Isi keterangan jika diperlukan
 
 ![Form Transfer](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmcoc_ACU2cVT-JK67ULkj7MzUNkRysTexP3TO8gp6R6acg4d4zMZCKtB7vuQ9PlOpX-jph-rDA6igRFTkTN02WOAhn5ziwjCVgw3QENmaiBnbZ50HI4RDEm8H7wEYuwafQqyJ5FPsPOS1MNwvXbF2WoWp96QmZM-3fOz9rh8jV-zAZufwGtIr4mjy6WU/s16000-rw/4.png)
 

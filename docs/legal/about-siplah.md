@@ -24,16 +24,16 @@ Layanan SIPLah tersedia selama hari kerja Senin s.d. Sabtu dan selama jam kerja 
 Ekosistem Bisnis dalam SIPLah melibatkan peran dan institusi yaitu :
 
 1. Pemilik SIPLah
-   - Unit Kerja Pengadaan Barang/Jasa (UKPBJ) Kementerian Pendidikan dan Kebudayaan.
+    - Unit Kerja Pengadaan Barang/Jasa (UKPBJ) Kementerian Pendidikan dan Kebudayaan.
 
 2. Mitra SIPLah :
-   - Mitra Sistem Pasar Daring dalam hal ini adalah PT. Ladang Karya Husada
-   - Mitra Sistem Pembayaran
+    - Mitra Sistem Pasar Daring dalam hal ini adalah PT. Ladang Karya Husada
+    - Mitra Sistem Pembayaran
 
 3. Pengguna SIPLah :
-   - Pelaku Usaha, individu atau badan hukum, sebagai Penyedia Barang dan Jasa Sekolah.
-   - Sekolah, yang diwakili Kepala Sekolah dan/atau Bendahara BOS, sebagai Pembeli Barang dan Jasa Sekolah.
-   - Direktorat Teknis Kementerian Pendidikan dan Kebudayaan sebagai Pengawas PBJ Sekolah.
+    - Pelaku Usaha, individu atau badan hukum, sebagai Penyedia Barang dan Jasa Sekolah.
+    - Sekolah, yang diwakili Kepala Sekolah dan/atau Bendahara BOS, sebagai Pembeli Barang dan Jasa Sekolah.
+    - Direktorat Teknis Kementerian Pendidikan dan Kebudayaan sebagai Pengawas PBJ Sekolah.
 
 ## SKEMA BISNIS
 
