@@ -1,9 +1,13 @@
 import DefaultTheme from 'vitepress/theme'
 import AnswerAccordion from '../components/AnswerAccordion.vue'
+import BlogList from '../components/BlogList.vue'
+import TagBadge from '../components/TagBadge.vue'
 
 export default {
     extends: DefaultTheme,
     enhanceApp({ app }) {
         app.component('AnswerAccordion', AnswerAccordion)
+        app.component('BlogList', BlogList)
+        app.component('TagBadge', TagBadge)
     },
 }

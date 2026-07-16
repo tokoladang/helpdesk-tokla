@@ -21,6 +21,7 @@ features:
     - title: SIPLah Toko Ladang
       details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
       link: https://siplah.tokoladang.co.id
-    - title: Feature C
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - title: Blog & Informasi
+      details: Informasi terbaru, pengumuman, dan berita seputar Toko Ladang
+      link: /blog
 ---

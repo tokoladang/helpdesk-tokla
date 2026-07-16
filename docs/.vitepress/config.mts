@@ -13,6 +13,7 @@ const defaultOgImage = `${siteUrl}/og-default.jpg`
 
 const navbarItems = [
     { text: 'Panduan', link: '/guide', activeMatch: '/guide/' },
+    { text: 'Blog', link: '/blog', activeMatch: '/blog/' },
     { text: 'Legal', link: '/legal/about-siplah', activeMatch: '/legal/' },
     { text: 'FAQ', link: '/faq', activeMatch: '/faq' },
 ]
@@ -99,6 +100,11 @@ export default defineConfig({
     ],
 
     transformPageData(pageData) {
+        if (pageData.relativePath.startsWith('blog/')) {
+            pageData.frontmatter.prev = false
+            pageData.frontmatter.next = false
+        }
+
         const canonicalUrl = `${siteUrl}/${pageData.relativePath}`
             .replace(/index\.md$/, '')
             .replace(/\.md$/, '.html')
@@ -195,7 +201,7 @@ export default defineConfig({
                 },
             ],
         },
-        socialLinks: [{ icon: 'github', link: VITE_GITHUB_URL }],
+        socialLinks: [{ icon: 'github', link: githubUrl }],
         search: {
             provider: 'local',
         },

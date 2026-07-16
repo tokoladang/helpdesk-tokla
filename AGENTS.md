@@ -16,6 +16,9 @@ VitePress 2.0.0-alpha.18 documentation site in Indonesian.
 ├── docs/
 │   ├── .vitepress/config.mts   # Site config
 │   ├── index.md                # Home page (layout: home)
+│   ├── blog/                   # Blog & berita
+│   │   ├── index.md
+│   │   └── YYYYMMDD-HHMMSS-*.md
 │   ├── guide/                  # User guides
 │   │   ├── index.md
 │   │   ├── merchant/           # Merchant guides
@@ -32,14 +35,21 @@ VitePress 2.0.0-alpha.18 documentation site in Indonesian.
 - **Title**: `title` in frontmatter, then `# {{ $frontmatter.title }}` as H1
 - **Clean URLs**: enabled — link without `.md` extension
 - **Sidebar**: edit `config.mts` to add pages to `themeConfig.sidebar`
-- **Naming**: numeric prefix for ordering (`01-registrasi.md`), or `YYYYMMDD-HHMMSS-` for date-based pages
+- **Naming**: numeric prefix for ordering (`01-registrasi.md`), or `YYYYMMDD-HHMMSS-` for date-based pages (HHMMSS pakai jam asli saat file dibuat, bukan 000000)
 - **Images**: use external CDN URLs or relative paths
 - **Search**: local search provider configured
 
-## Adding a new page
+## Adding a new guide page
 
 1. Create `.md` file under the appropriate `docs/guide/` subdirectory
 2. Add frontmatter with `title`
 3. Use `# {{ $frontmatter.title }}` for the page heading
 4. Register in sidebar inside `docs/.vitepress/config.mts`
 5. Optionally link from `docs/guide/index.md`
+
+## Adding a new blog post
+
+1. Create `.md` file under `docs/blog/` with `YYYYMMDD-HHMMSS-nama-post.md` (pakai jam asli)
+2. Add frontmatter with `title`, `description`, `date`, and `sidebar: false`
+3. Use `# {{ $frontmatter.title }}` for the page heading
+4. Add link to `docs/blog/index.md`
