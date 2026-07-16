@@ -34,7 +34,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute } from 'vitepress'
-import { data as posts } from '../../blog/blog.data'
+import { posts } from './blogData'
 
 const route = useRoute()
 

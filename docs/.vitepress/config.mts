@@ -12,8 +12,8 @@ const defaultOgImage = `${siteUrl}/og-default.jpg`
 // navbar items
 
 const navbarItems = [
-    { text: 'Panduan', link: '/guide', activeMatch: '/guide/' },
-    { text: 'Blog', link: '/blog', activeMatch: '/blog/' },
+    { text: 'Panduan', link: '/guide/list', activeMatch: '/guide/' },
+    { text: 'Blog', link: '/blog/list', activeMatch: '/blog/' },
     { text: 'Legal', link: '/legal/about-siplah', activeMatch: '/legal/' },
     { text: 'FAQ', link: '/faq', activeMatch: '/faq' },
 ]
