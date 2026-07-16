@@ -23,15 +23,15 @@ const merhcantGuideSidebarItem = (): DefaultTheme.SidebarItem[] => {
         { text: 'Daftar / Registrasi', link: '/guide/merchant/01-registrasi' },
         {
             text: 'Panduan Penggunaan Notifikasi Whatsapp',
-            link: '/guide/merchant/20260715-panduan-notif-whatsapp',
+            link: '/guide/merchant/20260715-000000-panduan-notif-whatsapp',
         },
         {
             text: 'Panduan Penggunaan TTE',
-            link: '/guide/merchant/20251104-panduan-penggunaan-tte',
+            link: '/guide/merchant/20251104-000000-panduan-penggunaan-tte',
         },
         {
             text: 'Tambah Pengguna / Admin Toko',
-            link: '/guide/merchant/20260716-tambah-pengguna-admin-toko',
+            link: '/guide/merchant/20260716-000000-tambah-pengguna-admin-toko',
         },
     ]
 }
@@ -39,27 +39,27 @@ const paymentGuideSidebarItem = (): DefaultTheme.SidebarItem[] => {
     return [
         {
             text: 'Kode Bayar Bank Bali',
-            link: '/guide/payment/20260715-pembayaran-kode-bayar-bank-bali',
+            link: '/guide/payment/20260715-000000-pembayaran-kode-bayar-bank-bali',
         },
         {
             text: 'VA BPD DIY',
-            link: '/guide/payment/20260716-pembayaran-va-bpd-diy',
+            link: '/guide/payment/20260716-000000-pembayaran-va-bpd-diy',
         },
         {
             text: 'Kode Bayar Bank Mandiri',
-            link: '/guide/payment/20260716-pembayaran-va-bank-mandiri',
+            link: '/guide/payment/20260716-000000-pembayaran-va-bank-mandiri',
         },
         {
             text: 'VA Bank Kaltimtara',
-            link: '/guide/payment/20251107-pembayaran-va-bankaltimtara',
+            link: '/guide/payment/20251107-000000-pembayaran-va-bankaltimtara',
         },
         {
             text: 'VA Bank Jateng',
-            link: '/guide/payment/20260716-pembayaran-va-bank-jateng',
+            link: '/guide/payment/20260716-000000-pembayaran-va-bank-jateng',
         },
         {
             text: 'VA BPD Sulselbar',
-            link: '/guide/payment/20260716-pembayaran-va-bpd-sulselbar',
+            link: '/guide/payment/20260716-000000-pembayaran-va-bpd-sulselbar',
         },
     ]
 }
@@ -67,15 +67,15 @@ const regulationGuideSidebarItem = (): DefaultTheme.SidebarItem[] => {
     return [
         {
             text: 'PMK 58 Tahun 2022',
-            link: '/guide/regulation/20220701-pmk58-tahun-2022',
+            link: '/guide/regulation/20220701-000000-pmk58-tahun-2022',
         },
         {
             text: 'SE Sesjen No 20 Tahun 2022',
-            link: '/guide/regulation/20220701-se-sesjen-no-20-tahun-2022',
+            link: '/guide/regulation/20220701-000000-se-sesjen-no-20-tahun-2022',
         },
         {
             text: 'PMK 131 Tahun 2024',
-            link: '/guide/regulation/20241231-pmk131-tahun-2024',
+            link: '/guide/regulation/20241231-000000-pmk131-tahun-2024',
         },
     ]
 }
@@ -150,7 +150,7 @@ export default defineConfig({
                     items: [
                         {
                             text: 'Clear Cache Chrome',
-                            link: '/guide/20260715-panduan-clear-cache-chrome',
+                            link: '/guide/20260715-000000-panduan-clear-cache-chrome',
                         },
                     ],
                 },
@@ -165,7 +165,7 @@ export default defineConfig({
                     items: [
                         {
                             text: 'Pembatalan Status BAST',
-                            link: '/guide/satdik/20260714-pembatalan-status-bast',
+                            link: '/guide/satdik/20260714-000000-pembatalan-status-bast',
                         },
                     ],
                 },
