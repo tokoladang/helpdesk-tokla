@@ -14,7 +14,6 @@ export default defineConfig({
   lang: 'id-ID',
   cleanUrls: true,
   lastUpdated: true,
-
   sitemap: {
     hostname: siteUrl,
   },
@@ -136,5 +135,12 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
+
   },
+  markdown: {
+    toc: { level: [1, 2, 3] },
+    image: {
+      lazyLoading: true
+    }
+  }
 })
