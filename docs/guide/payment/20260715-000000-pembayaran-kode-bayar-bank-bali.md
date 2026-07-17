@@ -1,12 +1,13 @@
 ---
 title: Panduan Pembayaran Kode Bayar Bank BALI
 description: Panduan atau tutorial pembayaran kode bayar Bank Bali untuk SIPLah Toko Ladang
+date: 2025-11-07
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/Ir8hMe0XAZfxAa3lHHGW4GzVmqg2f9aJPt3faGhO.jpg
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2025-11-07
+<PageDate />
 
 **Tata cara pembayaran menggunakan Internet Banking:**
 

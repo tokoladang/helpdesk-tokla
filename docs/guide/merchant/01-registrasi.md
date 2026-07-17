@@ -1,9 +1,13 @@
 ---
 title: Panduan registrasi merchant
 description: Panduan lengkap cara registrasi dan verifikasi akun merchant/penyedia di SIPLah Toko Ladang.
+date: 2026-06-15
+ogImage: /images/image-1.png
 ---
 
 # {{ $frontmatter.title }}
+
+<PageDate />
 
 ## Persiapan Sebelum Mulai Registrasi
 

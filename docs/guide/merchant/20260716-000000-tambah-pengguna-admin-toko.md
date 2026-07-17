@@ -1,10 +1,13 @@
 ---
 title: Tambah Pengguna atau Admin Toko di SIPLah Toko Ladang
 description: Panduan menambahkan pengguna atau admin baru ke toko di SIPLah Toko Ladang, termasuk verifikasi email dan login perdana.
+date: 2025-10-27
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/yvcvVwhTLpsyG7Kxx3SbkM9HaiscWsgZ2c90TymZ.png
 ---
 
 # {{ $frontmatter.title }}
+
+<PageDate />
 
 ## 1. Klik menu **"Daftar Pengguna"**
 

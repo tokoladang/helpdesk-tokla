@@ -1,13 +1,13 @@
 ---
 title: Cara Pembayaran Virtual Account (VA) di Bank Kaltimtara
 description: Panduan pembayaran Virtual Account Toko Ladang melalui Bankaltimtara dan bank lain.
-diterbitkan: 2025-11-07
+date: 2025-11-07
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/5PW120uyPpjhWQsFi8aohIrUBWAzm5HpI9RIC07t.jpg
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2025-11-07
+<PageDate />
 
 ## **Cara pembayaran melalui Teller Bankaltimtara**
 

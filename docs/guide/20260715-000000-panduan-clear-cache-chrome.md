@@ -1,11 +1,12 @@
 ---
 title: Panduan Clear Cache Browser Google Chrome
 description: Panduan membersihkan cache browser Google Chrome untuk mengatasi masalah pada SIPLah Toko Ladang.
+date: 2026-02-10
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2026-02-10
+<PageDate />
 
 Hallo sobat Toko Ladang,
 

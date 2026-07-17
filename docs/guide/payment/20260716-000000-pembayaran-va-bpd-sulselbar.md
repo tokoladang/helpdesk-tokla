@@ -1,12 +1,13 @@
 ---
 title: Cara Pembayaran Virtual Account (VA) di BPD Sulselbar
 description: Panduan lengkap pembayaran Virtual Account Toko Ladang melalui BPD Sulselbar via CMS, Teller, dan Mobile Banking.
+date: 2026-07-16
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/uSKsRivaOYwi6hWJJAa3ndj3v3gNacCCTQGdzvYb.jpg
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2026-07-16
+<PageDate />
 
 ## **Cara pembayaran melalui Cash Management System (CMS) Bank Sulselbar**
 

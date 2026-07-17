@@ -1,12 +1,13 @@
 ---
 title: Panduan Penggunaan TTE SIPLah Toko Ladang
 description: Panduan atau tutorial penggunaan Tanda Tangan Elektronik pada SIPLah Toko Ladang
+date: 2025-11-04
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/Ud9tsphTyoVQSXlnL44VgvlZxkC23sxd0rlyUffz.jpg
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2025-11-04
+<PageDate />
 
 1. Login sebagai Merchant di SIPLah Toko Ladang
 

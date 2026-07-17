@@ -1,12 +1,13 @@
 ---
 title: Panduan penggunaan notifikasi whatsapp
 description: Panduan langkah demi langkah untuk menggunakan layanan notifikasi via whatsapp.
+date: 2025-11-12
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/T19q18uFmd0sNDCiHTHy6r4pEjeZU1YtyBpIZjI4.jpg
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2025-11-12
+<PageDate />
 
 1. Login sebagai **Penyedia** di **SIPLah Toko Ladang**
 

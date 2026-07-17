@@ -1,12 +1,12 @@
 ---
 title: Cara Pembayaran Kode Bayar Bank Mandiri
 description: Panduan lengkap pembayaran Virtual Account Toko Ladang melalui Bank Mandiri via ATM, Livin', Kantor Cabang, dan MCM/MIB.
-diterbitkan: 2026-07-16
+date: 2026-07-16
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2026-07-16
+<PageDate />
 
 ## **Pembayaran melalui ATM**
 

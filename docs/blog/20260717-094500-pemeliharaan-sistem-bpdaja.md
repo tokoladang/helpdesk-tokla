@@ -2,19 +2,19 @@
 title: Pemberitahuan Pemeliharaan Sistem BPDAja
 description: Informasi mengenai pemeliharaan sistem BPDAja yang berdampak pada layanan pembayaran SIPLah melalui beberapa bank daerah
 date: 2026-02-23
-tags:
-    - berita
-    - pengumuman
 sidebar: false
 lastUpdated: false
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/eWYKwE8KxyJpSvPFxGTCIWTHOOzQav2n09vpftxH.jpg
+tags:
+    - berita
+    - pengumuman
 ---
 
 # {{ $frontmatter.title }}
 
 <TagBadge :tags="$frontmatter.tags" />
 
-<BlogDate />
+<PageDate />
 
 ![thumbnail](https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/eWYKwE8KxyJpSvPFxGTCIWTHOOzQav2n09vpftxH.jpg)
 

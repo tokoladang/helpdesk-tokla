@@ -1,12 +1,13 @@
 ---
 title: Cara Pembayaran Virtual Account (VA) di BPD DIY
 description: Panduan lengkap pembayaran Virtual Account Toko Ladang melalui BPD DIY via Mobile Banking, ATM, EDC, Teller, CMS, serta bank lain.
+date: 2026-07-16
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/xqkU9buSVzckKPTTERRnqdskleM8Usnji1eCZA81.jpg
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2026-07-16
+<PageDate />
 
 ## **Cara pembayaran via Mobile Banking BPD DIY**
 

@@ -1,12 +1,13 @@
 ---
 title: Cara Pembayaran Virtual Account (VA) di Bank Jateng
 description: Panduan lengkap pembayaran Virtual Account Toko Ladang melalui Bank Jateng via CMS Pemda.
+date: 2026-07-16
 ogImage: https://cdn-pusatinformasi.siplahtokoladang.id/posts/thumbnails/bAiFFeefhxGqbKvsa45cONI0IleJcrHaP3OhyyLz.jpg
 ---
 
 # {{ $frontmatter.title }}
 
-> Diterbitkan : 2026-07-16
+<PageDate />
 
 ## **Cara pembayaran VA Bank Jateng melalui CMS Pemda**
 
