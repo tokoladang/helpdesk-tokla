@@ -1,6 +1,6 @@
 import { DefaultTheme, defineConfig, loadEnv } from 'vitepress'
 
-const { VITE_SITE_URL, VITE_GITHUB_URL } = loadEnv(
+const { VITE_SITE_URL, VITE_GITHUB_URL, VITE_GA_ID } = loadEnv(
     process.env.NODE_ENV || 'development',
     process.cwd(),
     'VITE_'
@@ -8,6 +8,38 @@ const { VITE_SITE_URL, VITE_GITHUB_URL } = loadEnv(
 const siteUrl = VITE_SITE_URL
 const githubUrl = VITE_GITHUB_URL
 const defaultOgImage = `${siteUrl}/og-default.jpg`
+
+// head
+
+const head: import('vitepress').HeadConfig[] = [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'Toko Ladang' }],
+    ['meta', { property: 'og:locale', content: 'id_ID' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+]
+
+if (VITE_GA_ID) {
+    head.push(
+        [
+            'script',
+            {
+                async: '',
+                src: `https://www.googletagmanager.com/gtag/js?id=${VITE_GA_ID}`,
+            },
+        ],
+        [
+            'script',
+            {},
+            `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${VITE_GA_ID}');
+`,
+        ]
+    )
+}
 
 // navbar items
 
@@ -90,15 +122,7 @@ export default defineConfig({
     sitemap: {
         hostname: siteUrl,
     },
-
-    head: [
-        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
-        ['meta', { property: 'og:type', content: 'website' }],
-        ['meta', { property: 'og:site_name', content: 'Toko Ladang' }],
-        ['meta', { property: 'og:locale', content: 'id_ID' }],
-        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ],
-
+    head,
     transformPageData(pageData) {
         if (pageData.relativePath.startsWith('blog/')) {
             pageData.frontmatter.prev = false
