@@ -1,0 +1,103 @@
+:root {
+  --vp-c-brand-1: #F54900;
+  --vp-c-brand-2: #FF6B2B;
+  --vp-c-brand-3: #FF8A50;
+  --vp-c-brand-soft: rgba(245, 73, 0, 0.14);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #F54900 0%, #005F5A 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, #F54900 30%, #005F5A 80%);
+  --vp-home-hero-image-filter: blur(72px);
+}
+
+.VPHero .image-bg {
+  opacity: 0.25;
+}
+
+.VPHero .image-container {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.VPHero .image-container:hover {
+  transform: scale(1.05);
+}
+
+.VPFeature {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  padding: 24px;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-2);
+  box-shadow: 0 4px 20px rgba(245, 73, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+.VPFeature .icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.custom-cta {
+  text-align: center;
+  padding: 48px 24px;
+  margin-top: 32px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(245, 73, 0, 0.05) 0%, rgba(0, 95, 90, 0.05) 100%);
+  border: 1px solid var(--vp-c-border);
+}
+
+.custom-cta h2 {
+  font-size: 1.75rem;
+  margin-bottom: 8px;
+}
+
+.custom-cta p {
+  font-size: 1.1rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 24px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 8px;
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-2px);
+}
+
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.quick-link-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-border);
+  text-decoration: none;
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.quick-link-item:hover {
+  border-color: var(--vp-c-brand-2);
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+}

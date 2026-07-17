@@ -3,6 +3,7 @@ import AnswerAccordion from '../components/AnswerAccordion.vue'
 import BlogList from '../components/BlogList.vue'
 import GuideList from '../components/GuideList.vue'
 import TagBadge from '../components/TagBadge.vue'
+import './style.css'
 
 export default {
     extends: DefaultTheme,
