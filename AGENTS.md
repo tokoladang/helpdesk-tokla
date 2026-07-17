@@ -14,42 +14,55 @@ VitePress 2.0.0-alpha.18 documentation site in Indonesian.
 
 ```
 ├── docs/
-│   ├── .vitepress/config.mts   # Site config
+│   ├── .vitepress/
+│   │   ├── config.mts          # Site config
+│   │   ├── theme/index.ts      # Theme (registers global components)
+│   │   └── components/         # Vue components (PageDate, TagBadge, etc.)
 │   ├── index.md                # Home page (layout: home)
 │   ├── blog/                   # Blog & berita
-│   │   ├── index.md
-│   │   └── YYYYMMDD-HHMMSS-*.md
+│   │   ├── list.md
+│   │   └── YYYYMMDD-HHmmss-*.md
 │   ├── guide/                  # User guides
-│   │   ├── index.md
+│   │   ├── list.md
 │   │   ├── merchant/           # Merchant guides
 │   │   └── satdik/             # School guides
-│   └── legal/                  # Legal pages
-│       ├── about-siplah.md
-│       ├── privacy-policy.md
-│       └── terms-of-conditions.md
+│   ├── legal/                  # Legal pages
+│   │   ├── about-siplah.md
+│   │   ├── privacy-policy.md
+│   │   └── terms-of-conditions.md
+│   └── faq.md
 ```
 
-## Conventions
+## File Creation Rules
 
-- **Language**: Indonesian (bahasa Indonesia)
-- **Title**: `title` in frontmatter, then `# {{ $frontmatter.title }}` as H1
-- **Clean URLs**: enabled — link without `.md` extension
-- **Sidebar**: edit `config.mts` to add pages to `themeConfig.sidebar`
-- **Naming**: numeric prefix for ordering `YYYYMMDD-HHmmss-` use datetimenow utc+7, example `20260715-153815-guide.md`
-- **Images**: use external CDN URLs or relative paths
-- **Search**: local search provider configured
+### General Rules (applies to all `.md` files)
 
-## Adding a new guide page
+- **Naming**: numeric prefix `YYYYMMDD-HHmmss-` based on current time UTC+7, followed by a kebab-case slug.  
+  Example: `20260715-153815-guide.md`
+- **Frontmatter**: must include `title`, `description`, `date`
+- **H1**: always use `# {{ $frontmatter.title }}`
+- **Date**: place `<PageDate />` on its own line after the H1 (with a blank line separator)
 
-1. Create `.md` file under the appropriate `docs/guide/` subdirectory
-2. Add frontmatter with `title`
-3. Use `# {{ $frontmatter.title }}` for the page heading
-4. Register in sidebar inside `docs/.vitepress/config.mts`
-5. Optionally link from `docs/guide/index.md`
+### Guide `.md` Files
 
-## Adding a new blog post
+- Follow all **General Rules**
+- File location: `docs/guide/` or any subfolder beneath it (e.g. `docs/guide/merchant/`, `docs/guide/payment/`)
+- After creating the file, register it in the sidebar in `docs/.vitepress/config.mts` under the appropriate section
 
-1. Create `.md` file under `docs/blog/` with `YYYYMMDD-HHmmss-nama-post.md` (pakai jam asli UTC+7)
-2. Add frontmatter with `title`, `description`, `date`, and `sidebar: false`
-3. Use `# {{ $frontmatter.title }}` for the page heading
-4. Add link to `docs/blog/index.md`
+### Blog `.md` Files
+
+- Follow all **General Rules**
+- File location: `docs/blog/` or any subfolder beneath it
+- Additional frontmatter fields (beyond `title`, `description`, `date`):
+    - `sidebar: false`
+    - `lastUpdated: false`
+    - `ogImage` — full URL or path to the blog thumbnail image
+- Content structure:
+    ```markdown
+    # {{ $frontmatter.title }}
+
+    <TagBadge :tags="$frontmatter.tags" />
+
+    <PageDate />
+    ```
+- `TagBadge` must come right after the H1 (with a blank line delimiter) and before `<PageDate />`
